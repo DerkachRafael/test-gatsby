@@ -1,0 +1,9 @@
+{
+    "menu":[
+        {"title":"Home", "link":"/"}, 
+        {"title":"About", "link":"/about"},
+        {"title":"Photo", "link":"/photo"},
+        {"title":"Contact", "link":"/contact"},
+        {"title":"Blog", "link":"/blog"}
+    ]
+    }

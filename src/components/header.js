@@ -1,13 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Menu from '../components/menu'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
+  <header className="header">
     <div
       style={{
         margin: '0 auto',
@@ -26,8 +22,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <Menu />
     </div>
-  </div>
+  </header>
 )
 
 export default Header
