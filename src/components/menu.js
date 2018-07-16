@@ -14,8 +14,8 @@ export default class Menu extends Component {
       }}
     >
     {menuData.menu.map((item, index)=>(
-        <li key={index}>
-          <Link to={item.link}> {item.title}</Link>
+        <li key={index} className="nav__item">
+          <Link to={item.link} className="nav__link"> {item.title}</Link>
         </li>
     ))}
     </ul>
